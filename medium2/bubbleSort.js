@@ -121,7 +121,7 @@ function bubbleSort(array) {
     let swapped = false;
     for (let idx = 1; idx < length; idx++) {
       if (array[idx - 1] > array[idx]) {
-        [array[idx - 1], array[idx]] = [array[idx], array[idx - 1]]
+        [array[idx - 1], array[idx]] = [array[idx], array[idx - 1]];
         swapped = true;
       }
     }
